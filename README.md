@@ -20,7 +20,7 @@ https://www.anaconda.com/distribution/#download-section
 を実行して下さい。計算速度が全然違うのでgpu推奨です。
 
 #### kerasのインストール
-conda install keras
+```conda install keras```
 
 #### pipを使うとcudaやcudnnのバージョン違いで動かなくて悩むことになる可能性大です！condaでインストールして下さい。
 
