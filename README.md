@@ -14,7 +14,7 @@ conda install tensorflow
 
 を実行して下さい。
 
-#### kerasのインストール（一応）
+#### kerasのインストール
 conda install keras
 
 #### pipを使うとcudaやcudnnのバージョン違いで動かなくて悩むことになる可能性大です！
