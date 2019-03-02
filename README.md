@@ -3,9 +3,7 @@
 # 環境構築
 1.Anacondaをインストール
 
-2.Anacondaプロンプトを起動
-
-3.以下のコマンドを実行
+2.Anacondaプロンプトを起動、以下のコマンドを実行
 
 ### tensorflowのインストール
 conda install tensorflow-gpu
