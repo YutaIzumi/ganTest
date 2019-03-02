@@ -1,11 +1,11 @@
 # ganTest
 
 # 環境構築
-1.Anacondaをインストール
+### 1.Anacondaをインストール
 
-2.Anacondaプロンプトを起動、以下のコマンドを実行
+### 2.Anacondaプロンプトを起動、以下のコマンドを実行
 
-### tensorflowのインストール
+#### tensorflowのインストール
 conda install tensorflow-gpu
 
 ※nvidiaのグラボが無い場合は、
@@ -14,7 +14,7 @@ conda install tensorflow
 
 を実行して下さい。
 
-### kerasのインストール（一応）
+#### kerasのインストール（一応）
 conda install keras
 
 #### pipを使うとcudaやcudnnのバージョン違いで動かなくて悩むことになる可能性大です！
