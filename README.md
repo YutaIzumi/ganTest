@@ -17,7 +17,7 @@ conda install tensorflow
 ### kerasのインストール（一応）
 conda install keras
 
-### pipを使うとバージョン違いで動かなくて悩むことになる可能性大です！
+#### pipを使うとcudaやcudnnのバージョン違いで動かなくて悩むことになる可能性大です！
 
 # ganMnist.py
 ファイルを実行するとmnistのテストデータを使って学習します。
