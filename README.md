@@ -5,8 +5,10 @@ mnistとcifar10をganで学習するコードです。
 学習済みgeneratorの出力結果
 
 mnist
+![mnist_epoch300.png](https://github.com/YutaIzumi/ganTest/edit/master/img/mnist_epoch300.png)
 
 cifar10(猫のみ)
+![cat_epoch391.png](https://github.com/YutaIzumi/ganTest/edit/master/img/cat_epoch391.png)
 
 ## 環境構築
 ### 1.Anacondaをインストール
