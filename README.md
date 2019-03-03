@@ -1,6 +1,12 @@
 # ganTest
 
-mnistとCifar10をganで学習するコードです。
+mnistとcifar10をganで学習するコードです。
+
+学習済みgeneratorの出力結果
+
+mnist
+
+cifar10(猫のみ)
 
 ## 環境構築
 ### 1.Anacondaをインストール
