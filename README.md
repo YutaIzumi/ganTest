@@ -41,11 +41,15 @@ https://www.anaconda.com/distribution/#download-section
 
 最初は真っ黒ですが、学習が進むにつれて数字になっていくのが面白いｗ
 
-## ganCifar10
+## ganCifar10.py
 
 mnistは28x28x1の画像データですが、cifar10は32x32x3の画像データです。
 
 そのため重みや隠れ層の次元数がmnistの場合と変わります。そこだけ注意して下さい。
+
+## ganCifar10_CatOnly.py
+
+猫の画像のみ学習させます。
 
 ## License
 MIT
