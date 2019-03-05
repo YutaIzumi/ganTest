@@ -49,7 +49,38 @@ mnistは28x28x1の画像データですが、cifar10は32x32x3の画像データ
 
 ## ganCifar10_CatOnly.py
 
-猫の画像のみ学習させます。
+猫の画像のみ学習させます。 
+
+## imageNetGan
+### imageNet.py
+imageNetから画像を取得するモジュール
+
+参考：http://murayama.hatenablog.com/entry/2017/11/18/160818
+
+32行目の画像IDを変えることで様々な画像が一括取得できます。
+
+```classes = {"img":"n02123159"}```
+
+imgは画像を保存するフォルダ名です。n02123159は猫の画像のIDです。
+
+画像のIDは以下で検索。
+
+http://www.image-net.org/explore
+
+### ImageResize.py
+imgフォルダに保存した画像をリサイズしてnumpy配列で返すモジュール
+
+ganImageNet.pyの中で使います。
+
+### ganImageNet.py
+imgフォルダに保存した画像を学習するモジュール
+
+### 使い方
+```imageNetGan/img```に画像ファイルを保存
+
+ganImageNet.pyを実行すると保存した画像に対して学習が開始します。
+
+画像は64x64にリサイズされます。
 
 ## License
 MIT
