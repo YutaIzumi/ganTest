@@ -57,7 +57,7 @@ imageNetから画像を取得するモジュール
 
 参考：http://murayama.hatenablog.com/entry/2017/11/18/160818
 
-32行目の画像IDを変えることで様々な画像が一括取得できます。
+32行目の画像IDを変えることでImageNetから様々な画像が一括取得できます。
 
 ```classes = {"img":"n02123159"}```
 
@@ -75,12 +75,18 @@ ganImageNet.pyの中で使います。
 ### ganImageNet.py
 imgフォルダに保存した画像を学習するモジュール
 
+参考：http://13mzawa2.hateblo.jp/entry/2018/03/02/000901
+
 ### 使い方
 ```imageNetGan/img```に画像ファイルを保存
 
 ganImageNet.pyを実行すると保存した画像に対して学習が開始します。
 
 画像は64x64にリサイズされます。
+
+りんごの画像を学習した結果。何となくりんごっぽい画像もありますが、精度はいまいちです。
+
+![apple.png](https://github.com/YutaIzumi/ganTest/blob/master/img/apple.png)
 
 ## License
 MIT
